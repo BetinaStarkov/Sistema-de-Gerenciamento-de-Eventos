@@ -35,3 +35,4 @@ Este projeto implementa um sistema de gerenciamento de eventos utilizando SQL. O
 
    ```bash
    git clone https://github.com/usuario/sistema-gerenciamento-eventos.git
+cd sistema-gerenciamento-eventos
