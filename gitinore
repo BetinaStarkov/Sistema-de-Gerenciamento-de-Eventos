@@ -1,0 +1,32 @@
+
+### `gitignore`
+
+O arquivo `.gitignore` ajuda a ignorar arquivos desnecessários no repositório Git, como arquivos temporários do sistema, logs, ou configurações de ambiente local.
+
+```gitignore
+# Ignore arquivos de banco de dados locais
+*.sql~
+
+# Ignore arquivos temporários de edição
+*~
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore diretórios de IDEs (ex: Visual Studio Code)
+.vscode/
+.idea/
+
+# Ignore arquivos gerados pelo sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignore diretórios de controle de versões do sistema operacional
+__MACOSX/
+
+# Ignore credenciais
+.env
